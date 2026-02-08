@@ -15,23 +15,25 @@ div ,  body{
     margin: 20px;
     align-items: center;
     background-color: #fff;
-    gap: 10px;
+    gap: 30px;
 }
 
 .flex-item{
     background-color: #800;
-    text-align: center;
-    margin: 10px;
     color: #fff;
     font-size: 40px;
-    width: 100px;
-    direction: rtl;
-    /* flex-grow: 1; */
-    /* flex-shrink: 1; */
-    /* flex-basis: 150px; */
-    flex: 1 1 100px; /* Es la abreviatura de los anteriores */
+    text-align: center;
+    flex: 1 1 100px;
 }
 
 .flex-item:nth-child(2n){
     background-color: #f77;
+}
+
+.flex-item:last-child{
+    align-self: stretch;
+}
+
+.item-5{
+    align-self: stretch;
 }
