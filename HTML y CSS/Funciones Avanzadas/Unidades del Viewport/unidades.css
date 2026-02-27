@@ -8,10 +8,11 @@ body{
 }
 
 .box{
+    margin: 30px auto;
+    width: 90dvw;
     font-size: 20px;
     padding: 0 40px;
-    border: 2px solid #43e;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 p::first-letter{
